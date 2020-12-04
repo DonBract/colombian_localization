@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include colombian_localization *.css
+recursive-include colombian_localization *.csv
+recursive-include colombian_localization *.html
+recursive-include colombian_localization *.ico
+recursive-include colombian_localization *.js
+recursive-include colombian_localization *.json
+recursive-include colombian_localization *.md
+recursive-include colombian_localization *.png
+recursive-include colombian_localization *.py
+recursive-include colombian_localization *.svg
+recursive-include colombian_localization *.txt
+recursive-exclude colombian_localization *.pyc
