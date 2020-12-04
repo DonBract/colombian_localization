@@ -2,7 +2,7 @@ import frappe
 from erpnext.selling.doctype.customer.customer import Customer
 
 def validation(self):
-	self.flags.is_new_doc = self.is_new()
+    self.flags.is_new_doc = self.is_new()
     self.flags.old_lead = self.lead_name
     validate_party_accounts(self)
     self.validate_credit_limit_on_change()
